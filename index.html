@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
     <style>
       table,
       th,
@@ -25,7 +26,18 @@
     <main>
       <h1>Mark Williams</h1>
       <p>Teacher looking for a new way of life!</p>
-      <h2>Personal Charateristics</h2>
+
+      <video width="320" height="240" controls>
+        <source src="Ocean - 135658.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <audio controls class="audio">
+        <source src="Back One Day.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <h2 class="character">Personal Charateristics</h2>
       <ul>
         <li>Time Management</li>
         <li>Resilience</li>
@@ -33,7 +45,7 @@
         <li>Reflective learner</li>
       </ul>
 
-      <table>
+      <table class="table">
         <thead>
           <tr>
             <th>Workplace</th>
@@ -58,9 +70,9 @@
         </tr>
       </table>
 
-      <h2>Why the change in career?</h2>
+      <h2 class="topics">Why the change in career?</h2>
 
-      <p>
+      <p class="info">
         A poll shows nearly half of teachers in England plan to quit within the
         next five years. Ahead of the National Education Union (NEU) annual
         conference in Bournemouth this week, it published data on Monday
@@ -72,7 +84,7 @@
         or “unmanageable most of the time”, up from 35% in 2021.
       </p>
 
-      <p>
+      <p class="info">
         For those planning to leave within two years, workload was the key
         motivation for 65% of respondents, while concerns about the level of
         trust in teachers from the public and government were also a significant
@@ -96,8 +108,17 @@
         staffing had left staff “close to burnout”.
       </p>
 
-      <h2>Education</h2>
-      <table>
+      <h2 class="topics">Current Proficiency</h2>
+      <p class="info">
+        <img src="cssdiner.PNG" alt="Proof of CSS Diner completion" /> Took me a
+        while to understand the child element tasks, misread it and believed I
+        had to declare the parent name:first-child rather than the child element
+        name and first-child.Felt rather silly once I figured it out but that's
+        part of the fun!
+      </p>
+
+      <h2 class="topics">Education</h2>
+      <table class="table">
         <thead>
           <tr>
             <th>Subject</th>
@@ -117,8 +138,8 @@
           <td>2019-20122</td>
         </tr>
       </table>
-      <h2>Looking for a new career?</h2>
-      <article>
+      <h2 class="topics">Looking for a new career?</h2>
+      <article class="shameless">
         About our coding bootcamps in London The Jump is a family run school
         based in London and in order to make our coding bootcamps as accessible
         as possible, we deliver all our training remotely, so that you can learn
